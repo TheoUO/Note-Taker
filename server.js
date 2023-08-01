@@ -6,7 +6,6 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 // Body parser middleware
-// Context from Code Snippet c:/Users/TheoO/Note-Taker/Develop/public/index.html:
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(express.static("public"));
